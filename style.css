@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+
+
+
+
+
+
+body {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-color: hsl(257, 40%, 49%);
+    max-width: 100%;
+    background-image: url(images/bg-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.7rem;
+    font-size: 2em;
+    font-weight: 400;
+
+}
+
+.p-right {
+    max-width: 85%;
+    font-size: .92rem;
+    line-height: 1.5rem;
+    margin-bottom: 4%;
+
+}
+
+button {
+    color: hsl(257, 40%, 49%);
+    padding: 10px 35px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 16px;
+    display: inline-block;
+
+}
+
+
+
+
+/* images */
+
+.logo {
+    max-width: 25%;
+    margin: 5% 0 10% 5%;
+
+}
+
+.mockup {
+    max-width: 95%;
+    margin: 0 0 5% 5%;
+    
+}
+
+
+.icons {
+    font-size: 1.3rem;
+    text-align: right;
+    transform: translateX(-5%);
+ 
+    
+    
+       
+}
+
+.icons i {
+   margin-right: 2%;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    
+    margin: auto;
+    
+}
+
+.div-left {
+    width: 60%;
+   
+}
+
+.div-right {
+    width: 40%;
+    margin-left: 2%;
+    position:relative;
+
+    
+}
+
+
+.h2 {
+    max-width: 75%;
+    margin-bottom: 4%;
+    
+}
+
+
+
+.attribution {
+    transform: translatey(155%);
+}
+
+
+
+
+/* Media Query */
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+     background-image: url(images/bg-mobile.svg);
+    
+
+    }
+
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        line-height: 2rem;
+        font-size: 1.5em;
+        font-weight: 500;
+        text-align: center;
+
+    }
+
+    .p-right {
+        font-size: .92rem;
+        line-height: 1.5rem;
+        margin:3% auto;
+        text-align: center;
+        min-width: 90%;
+    }
+
+    .p-right p {
+        text-align: center;
+       
+    }
+
+    button {
+        color: hsl(257, 40%, 49%);
+        padding: 10px 35px;
+        margin: 10% auto 17% auto ;
+        border: none;
+        border-radius: 16px;
+        display: block;
+        
+        min-width: 65%;
+
+
+    }
+   
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 85%;
+        }
+
+
+    .div-right, .div-left  {
+        width: 100%;
+       
+        }
+
+        .div-right {
+            text-align: center;
+        }
+
+    
+.h2 {
+    max-width: 100%;
+    margin-bottom: 4%;
+    
+    
+}
+
+
+
+
+
+    .logo {
+        max-width: 42%;
+        margin: 11% 0 17% 0;
+    
+    }
+    
+    .mockup {
+        max-width: 100%;
+        margin: 0 0 10% 0;
+        
+    }
+
+    .icons {
+        text-align: center;
+        margin-right: 0;
+        padding: 0;
+        min-width: 100%;
+        transform: translateX(0%);
+    }
+
+}
+
+
